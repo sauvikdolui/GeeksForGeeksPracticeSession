@@ -52,7 +52,7 @@ func mergeKSortedArrays(_ arr: [[Int]]) -> [Int] {
             indicesToScan[minIndex] += 1
         } else {
             // All elements are collected from arr[minIndex], marking indexToScan as -1 so
-            // that we skip this array later while determining the minimum elemt
+            // that we skip this array later while determining the minimum elements
             indicesToScan[minIndex] = -1
         }
     }
